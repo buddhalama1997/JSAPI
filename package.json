@@ -1,0 +1,30 @@
+{
+  "name": "backendjs",
+  "version": "1.0.0",
+  "description": "THis is initial configuration",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buddhalama1997/JSAPI.git"
+  },
+  "author": "Buddha Lama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buddhalama1997/JSAPI/issues"
+  },
+  "homepage": "https://github.com/buddhalama1997/JSAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  }
+}
